@@ -18,7 +18,7 @@ The model weights can be downloaded as .h5 files from the URLs below.
 [mouse rep 3](https://storage.googleapis.com/seqnn-share/prime/rep3/model1_best.h5)<br/>
 
 ### Data Availability
-The training data for Borzoi Prime is available on Google Cloud Storage at: [gs://prime-paper/data](gs://prime-paper/data). Users wanting to access the data should first read the data use policy, which can be found [here](https://storage.googleapis.com/seqnn-share/prime/hg38/TABULA_SAPIENS_DATA_USE_POLICY.txt). Contact *drk (at) calicolabs.com* or *jlinder (at) calicolabs.com* for questions on how to access the data.
+The training data for Borzoi Prime is available on Google Cloud Storage at: [gs://prime-paper/data](gs://prime-paper/data). Since a subset of the data contains aggregated values from Tabula Sapiens, we ask users to first request access from [https://tabula-sapiens.sf.czbiohub.org/whereisthedata](https://tabula-sapiens.sf.czbiohub.org/whereisthedata) and then contact *drk (at) calicolabs.com* or *jlinder (at) calicolabs.com* to obtain access to the GCP storage bucket. Users should also read the data use policy located [here](https://storage.googleapis.com/seqnn-share/prime/hg38/TABULA_SAPIENS_DATA_USE_POLICY.txt).
 
 *Note*: This data bucket is large (multiple TB) and thus set to "Requester Pays". To access the bucket, you must have a billable user project set up on the Google Cloud Platform (GCP) and included with the "-u" flag when issuing gCloud CLI commands.
 
